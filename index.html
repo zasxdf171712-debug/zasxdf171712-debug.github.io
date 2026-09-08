@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GAME PLANNER PORTFOLIO</title>
+  <title>Ha Jun PORTFOLIO</title>
   <!-- Google Fonts 적용 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,10 +33,10 @@
       color: inherit;
     }
 
-    /* 2. 상단 헤더 (Header / Navigation) */
+    /* 2. 상단 네비게이션 헤더 (GNB) */
     header {
       width: 100%;
-      padding: 24px 48px;
+      padding: 20px 48px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -49,7 +49,7 @@
     }
 
     .logo {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       font-weight: 700;
       letter-spacing: -0.5px;
       color: #0f172a;
@@ -62,12 +62,12 @@
     nav {
       display: flex;
       align-items: center;
-      gap: 24px;
+      gap: 20px;
     }
 
     .nav-links {
       display: flex;
-      gap: 20px;
+      gap: 24px;
       list-style: none;
       font-size: 0.95rem;
       font-weight: 500;
@@ -113,7 +113,7 @@
       border-radius: 50%;
     }
 
-    /* 3. 메인 콘텐츠 및 카드 레이아웃 */
+    /* 3. 메인 콘텐츠 (카드 레이아웃) */
     main {
       flex: 1;
       display: flex;
@@ -169,13 +169,13 @@
       word-break: keep-all;
     }
 
-    /* 기술 스택 태그 */
+    /* 핵심 역량 태그 */
     .skills-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 8px;
-      margin: 10px 0;
+      margin: 8px 0;
     }
 
     .skill-tag {
@@ -224,7 +224,7 @@
       color: #64748b;
     }
 
-    /* 4. 우측 내비게이션 인디케이터 */
+    /* 4. 우측 스크롤 인디케이터 (Dot Navigation) */
     .right-indicator {
       position: fixed;
       right: 32px;
@@ -283,14 +283,14 @@
 
   <!-- 상단 네비게이션 헤더 -->
   <header>
-    <div class="logo">GAME PLANNER<span>.</span></div>
+    <div class="logo">Ha Jun<span>.</span></div>
     
     <nav>
       <ul class="nav-links">
         <li><a href="#" class="active">About</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Play History</a></li>
+        <li><a href="#">Play & Analysis</a></li>
       </ul>
       <a href="mailto:nsminzzang@naver.com" class="contact-btn">Contact</a>
       <div class="status-badge">
@@ -300,7 +300,7 @@
     </nav>
   </header>
 
-  <!-- 메인 메세지 카드 영역 -->
+  <!-- 메인 메세지 카드 영역 (INTRO) -->
   <main>
     <div class="card-container">
       <div class="icon-box">🎮</div>
@@ -309,11 +309,11 @@
       <p class="card-subtitle">System & UI/UX Design</p>
       
       <p class="card-description">
-        사용자 경험을 최우선으로 생각하는 게임 기획자입니다.<br>
-        시스템 구상부터 UI 설계, 문서화까지 책임감 있게 담당합니다.
+        시스템 설계부터 와이어프레임 작성, 데이터 밸런싱까지<br>
+        유저 중심의 재미를 문서로 구체화하는 기획자입니다.
       </p>
 
-      <!-- 주요 역량/툴 태그 -->
+      <!-- 핵심 태그 -->
       <div class="skills-container">
         <span class="skill-tag">System Design</span>
         <span class="skill-tag">UI/UX</span>
@@ -322,19 +322,19 @@
         <span class="skill-tag">Excel</span>
       </div>
 
-      <!-- 포트폴리오 기획서 열람 버튼 (노션/구글드라이브/PDF 링크) -->
-      <a href="https://app.notion.com/p/3457f46f981280c5b005c17643011797" target="_blank" class="action-button">
-        📂 포트폴리오 기획서 보기
+      <!-- 포트폴리오 상세 링크 (노션/구글 드라이브 등) -->
+      <a href="https://https://app.notion.com/p/3457f46f981280c5b005c17643011797" target="_blank" class="action-button">
+        📂 대표 기획서 열람하기
       </a>
 
-      <!-- 이메일 주소 복사 안내 -->
+      <!-- 이메일 복사 안내 -->
       <div class="copy-info" onclick="copyEmail('nsminzzang@naver.com')">
         📋 이메일 복사 (nsminzzang@naver.com)
       </div>
     </div>
   </main>
 
-  <!-- 오른쪽 화면 인디케이터 -->
+  <!-- 우측 세션 위치 인디케이터 -->
   <div class="right-indicator">
     <div class="indicator-item">
       <span class="indicator-label">INTRO</span>
